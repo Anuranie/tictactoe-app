@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/tictactoe-app/static/css/main.8f682c56.css",
+    "main.css": "/tictactoe-app/static/css/main.10c0e29f.css",
     "main.js": "/tictactoe-app/static/js/main.dfd0722e.js",
     "static/media/feeling-blue.svg": "/tictactoe-app/static/media/feeling-blue.db36c9372b79f0948e322d54d1b99c02.svg",
     "static/media/tie.svg": "/tictactoe-app/static/media/tie.96940c8769504e7c516528be9bbdf4d1.svg",
@@ -8,11 +8,11 @@
     "static/media/happy-face.svg": "/tictactoe-app/static/media/happy-face.8582f944360558ff73eb6fc4fa6add84.svg",
     "static/media/robot.svg": "/tictactoe-app/static/media/robot.13e4cfa1fe516e5476e55a91536423cc.svg",
     "index.html": "/tictactoe-app/index.html",
-    "main.8f682c56.css.map": "/tictactoe-app/static/css/main.8f682c56.css.map",
+    "main.10c0e29f.css.map": "/tictactoe-app/static/css/main.10c0e29f.css.map",
     "main.dfd0722e.js.map": "/tictactoe-app/static/js/main.dfd0722e.js.map"
   },
   "entrypoints": [
-    "static/css/main.8f682c56.css",
+    "static/css/main.10c0e29f.css",
     "static/js/main.dfd0722e.js"
   ]
 }
