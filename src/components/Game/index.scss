@@ -1,0 +1,27 @@
+@import "../../styles/variables";
+
+.board-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.reset-button {
+  margin-top: 1rem;
+  height: 2rem;
+  border: none;
+  border-radius: 10px;
+  font-family: $game-font;
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.players-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 2em;
+  font-style: bold;
+  font-weight: bold;
+  color: white;
+}

@@ -1,0 +1,46 @@
+@import "../../styles/variables";
+
+@keyframes moveLeftRight {
+  0%,
+  66% {
+    transform: skew(0deg);
+  }
+  33% {
+    transform: skew(30deg);
+  }
+  100% {
+    transform: skewX(-30deg);
+  }
+}
+
+.logo-container {
+  display: flex;
+  flex-direction: row;
+  margin: 1rem;
+  &:hover {
+    .dot {
+      animation: moveLeftRight 1s linear 2 alternate;
+    }
+  }
+}
+
+.dot {
+  height: 3rem;
+  width: 3rem;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  color: white;
+  text-align: center;
+  font-size: 1.5rem;
+  &.blue {
+    background-color: $blue;
+  }
+  &.red {
+    background-color: $red;
+  }
+
+  &.green {
+    background-color: $green;
+  }
+}

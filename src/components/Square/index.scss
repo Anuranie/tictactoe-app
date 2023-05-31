@@ -1,0 +1,65 @@
+@import "../../styles/variables";
+
+@keyframes wiggle {
+  0%,
+  7% {
+    transform: rotateZ(0);
+  }
+  15% {
+    transform: rotateZ(-15deg);
+  }
+  20% {
+    transform: rotateZ(10deg);
+  }
+  25% {
+    transform: rotateZ(-10deg);
+  }
+  30% {
+    transform: rotateZ(6deg);
+  }
+  35% {
+    transform: rotateZ(-4deg);
+  }
+  40%,
+  100% {
+    transform: rotateZ(0);
+  }
+}
+
+.square {
+  background-color: #ffffff;
+  border: none;
+  border-radius: 10%;
+  box-shadow: 0px 0px 8px #888888;
+  width: 5rem;
+  height: 5rem;
+  text-align: center;
+  font-size: 3em;
+  font-family: $game-font;
+  font-weight: bold;
+  margin: 0.5rem;
+  &:hover {
+    &:enabled {
+      box-shadow: 0px 0px 15px #888888;
+      cursor: pointer;
+    }
+  }
+
+  &.x {
+    color: $blue;
+    border-color: $blue;
+    border: 2px;
+  }
+
+  &.o {
+    color: $red;
+    border-color: $red;
+    border: 2px;
+  }
+
+  &.highlight {
+    background-color: $green;
+    color: white;
+    animation: wiggle 2s linear infinite;
+  }
+}
