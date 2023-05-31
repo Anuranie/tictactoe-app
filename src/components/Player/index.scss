@@ -1,0 +1,17 @@
+@import "../../styles/variables";
+
+.player-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1rem;
+}
+
+.player-image {
+  width: 5rem;
+  height: auto;
+  fill: #faf9f6;
+  &.spotlight {
+    stroke: $green;
+  }
+}
