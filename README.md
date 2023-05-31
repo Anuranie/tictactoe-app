@@ -39,3 +39,8 @@ Run `npm i` to install all the dependencies
 - Tests are included in the components folder as well under the subfolder `__test__`
 - Common files including the `type.ts` and `constants.ts` are included in the `common` folder
 - All helper functions can be found in the `helpers` folder
+
+## Live Demo
+
+Have a feel of the game for yourself,
+[Demo](https://anuranie.github.io/tictactoe-app/)
